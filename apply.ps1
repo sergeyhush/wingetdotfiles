@@ -2,7 +2,7 @@
 $ErrorActionPreference = "Stop"
 
 # Configuration
-$RepoPath = "C:\Tools\MachineConfig" 
+$RepoPath = "C:\Tools\wingetdotfiles" 
 $ConfigFile = "$RepoPath\machine.dsc.yaml"
 $LogFile = "$RepoPath\apply_log.txt"
 
