@@ -49,3 +49,19 @@ properties:
       settings:
         id: AgileBits.1Password
         source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: Shotcut
+      directives:
+        description: Install Shotcut
+        allowPrerelease: false
+      settings:
+        id: Meltytech.Shotcut
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: VLC
+      directives:
+        description: Install VLC
+        allowPrerelease: false
+      settings:
+        id: VideoLAN.VLC
+        source: winget
